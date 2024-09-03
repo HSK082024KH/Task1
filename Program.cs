@@ -48,14 +48,26 @@ class Program
         }
 
         // Lag en metode(?) av typen integer som legger sammen to tall, int a og int b
-        int a = 10, b = 20;
-        Console.WriteLine(a + b);
+            MyMethod();
+            
 
-        /* Lag en metode(?) av typen string som skrive ut en liten hilsen til brukeren ved å bruke en parametervariabel.
-        Console.WriteLine("Write your name:");
-        string userName = Console.ReadLine ();
-        Console.WriteLine("Hello " + userName + ". You are great!"); */
-
+        // Lag en metode(?) av typen string som skrive ut en liten hilsen til brukeren ved å bruke en parametervariabel.
+           MySecondMethod();
+      
         }
-    }
+static void MyMethod()
+        {
+            int a = 10, b = 20;
+            Console.WriteLine(a + b);
+        }
+
+static void MySecondMethod()
+{
+        Console.WriteLine("Write your name:");
+        string userName = Console.ReadLine();
+        Console.WriteLine("Hello " + userName + ". You are great!");   
+}
+
+}
+
 
